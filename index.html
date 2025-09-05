@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>✨ My Interactive Web Page</h1>
+
+  <!-- Part 1: Event Handling -->
+  <button id="toggleMessageBtn">Click Me</button>
+  <p id="message" style="display: none;">🎉 You clicked the button!</p>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>🌙 Light/Dark Mode</h2>
+    <button id="modeToggle">Toggle Dark Mode</button>
+  </section>
+
+  <section>
+    <h2>🧮 Counter</h2>
+    <button id="decrease">-</button>
+    <span id="count">0</span>
+    <button id="increase">+</button>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>📝 Sign Up Form</h2>
+    <form id="signupForm">
+      <label>Name: <input type="text" id="name"></label><br>
+      <label>Email: <input type="email" id="email"></label><br>
+      <label>Password: <input type="password" id="password"></label><br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formFeedback"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
